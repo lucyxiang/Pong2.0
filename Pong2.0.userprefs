@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LeapMotion/Modules/GraphicRenderer/Examples/Scripts/ExampleArrayController.cs">
+    <Files>
+      <File FileName="Assets/LeapMotion/Modules/InteractionEngine/Examples/3. Interaction Callbacks/Scripts/TransformRotationHandle.cs" Line="1" Column="1" />
+      <File FileName="Assets/LeapMotion/Modules/InteractionEngine/Examples/3. Interaction Callbacks/Scripts/TransformTranslationHandle.cs" Line="1" Column="1" />
+      <File FileName="Assets/LeapMotion/Modules/InteractionEngine/Examples/6. Dynamic UI/Scripts/WorkstationBehaviourExample.cs" Line="10" Column="18" />
+      <File FileName="Assets/LeapMotion/Modules/GraphicRenderer/Examples/Scripts/ExampleArrayController.cs" Line="12" Column="1" />
+      <File FileName="Assets/LeapMotion/Modules/GraphicRenderer/Scripts/EditTimeApis/LeapGraphicGroupEditorApi.cs" Line="17" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

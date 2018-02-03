@@ -1,14 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong2.0", "Assembly-CSharp.csproj", "{E4BE199B-E9F3-AD16-D663-2D21187A31D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong2.0", "Assembly-CSharp-Editor.csproj", "{631ACE2C-110D-2F6B-9478-19E79FE1C297}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{E4BE199B-E9F3-AD16-D663-2D21187A31D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BE199B-E9F3-AD16-D663-2D21187A31D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BE199B-E9F3-AD16-D663-2D21187A31D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BE199B-E9F3-AD16-D663-2D21187A31D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631ACE2C-110D-2F6B-9478-19E79FE1C297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631ACE2C-110D-2F6B-9478-19E79FE1C297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631ACE2C-110D-2F6B-9478-19E79FE1C297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631ACE2C-110D-2F6B-9478-19E79FE1C297}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
