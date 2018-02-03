@@ -1,2 +1,3 @@
-# Pong2.0
-McHacks2018
+# Pong 2.0 🔥🏓🖥
+
+McHacks 2018
