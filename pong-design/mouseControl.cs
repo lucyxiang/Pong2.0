@@ -1,10 +1,10 @@
-﻿// control racket using the mouse
+// control racket using the mouse
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class racketLeftPlayer : MonoBehaviour {
+public class mouseControl : MonoBehaviour {
 
    
     // Update is called once per frame
