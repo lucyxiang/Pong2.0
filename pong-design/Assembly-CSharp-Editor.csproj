@@ -120,6 +120,9 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>/Users/federiconaranjobellina/Library/Mobile Documents/com~apple~CloudDocs/GitHub/Pong2.0/pong-design/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/federiconaranjobellina/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -140,9 +143,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/federiconaranjobellina/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="LeapCSharp.NET3.5">
- <HintPath>/Users/federiconaranjobellina/Library/Mobile Documents/com~apple~CloudDocs/GitHub/Pong2.0/pong-design/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

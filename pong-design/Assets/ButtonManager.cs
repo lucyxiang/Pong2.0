@@ -5,16 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour {
 
-	public void NewSinglePlayerGame(string newSinglePlayerGame) {
-		SceneManager.LoadScene(newSinglePlayerGame);
-	}
-	
-	public void NewMultiplayerGame(string newSingleplayerGame) {
-		SceneManager.LoadScene(newSingleplayerGame);
-	}
-
-	public void Options(string options) {
-		SceneManager.LoadScene(options);
+    public void changeScene(string scene) {
+		SceneManager.LoadScene(scene);
 	}
 
 	public void Quit() {

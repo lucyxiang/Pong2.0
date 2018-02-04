@@ -11,3 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/basic-pong.unity
     guid: 0faba127d53de4708af38cfe1e923cbd
+  - enabled: 1
+    path: Assets/pong-single-keyboard.unity
+    guid: 3c436c71ce3d5419ca1c07df1ced52ff
+  - enabled: 1
+    path: Assets/pong-single-leap.unity
+    guid: 0a4e6a2f88b694a93812b6560573e591
+  - enabled: 1
+    path: Assets/pong-single-mouse.unity
+    guid: 607339fee7dc843d3a9ad047e17bfc87
+  - enabled: 1
+    path: Assets/single-player-options.unity
+    guid: 5f874dadca7d44135872b58d3f95b869
