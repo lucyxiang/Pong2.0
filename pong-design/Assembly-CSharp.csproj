@@ -51,8 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\aiControl.cs" />
      <Compile Include="Assets\ballStartBehaviour.cs" />
      <Compile Include="Assets\ButtonManager.cs" />
+     <Compile Include="Assets\keyboardControl.cs" />
+     <Compile Include="Assets\keyboardControl_right.cs" />
+     <Compile Include="Assets\leapControl.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\AerodynamicLeaf.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ChangeMaterialOnGrab.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\CubeWave.cs" />
@@ -136,6 +140,7 @@
      <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\SliderToTextDataBinder.cs" />
      <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\ToggleToTextDataBinder.cs" />
      <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\WidgetsEnabler.cs" />
+     <Compile Include="Assets\mouseControl.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OvrCapi.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
@@ -239,7 +244,11 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
+<<<<<<< HEAD
  <HintPath>/Users/sasila/Documents/Almost Working/Pong2.0/pong-design/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+=======
+ <HintPath>/Users/federiconaranjobellina/Library/Mobile Documents/com~apple~CloudDocs/GitHub/Pong2.0/pong-design/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+>>>>>>> f839c4073031f130861dc03dec1d6eb938658a49
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/sasila/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -260,7 +269,11 @@
  <HintPath>/Users/sasila/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
+<<<<<<< HEAD
  <HintPath>/Users/sasila/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+=======
+ <HintPath>/Users/federiconaranjobellina/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+>>>>>>> f839c4073031f130861dc03dec1d6eb938658a49
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
