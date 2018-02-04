@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ballStartBehaviour : MonoBehaviour {
 
@@ -20,16 +21,38 @@ public class ballStartBehaviour : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        Invert = 1;
-        TowardsPlayer = 1;
-        this.myRigidbody = this.GetComponent<Rigidbody>();
-        myRigidbody.velocity = new Vector3(10.0f, 0.0f, 15.0f);
-
+        StartCoroutine(startSetup());
+    }
+    IEnumerator startSetup()
+    {
         playerLeft=0;
         playerRight=0;
 
         setplayerLeftScore();
         setplayerRightScore();
+        yield return new WaitForSeconds(3);
+        finishSetup();        
+    }
+
+    void finishSetup() {
+        Invert = 1;
+        TowardsPlayer = 1;
+        this.myRigidbody = this.GetComponent<Rigidbody>();
+        myRigidbody.velocity = new Vector3(10.0f, 0.0f, 15.0f);
+    }
+
+    IEnumerator endGame()
+    {
+        if(playerLeft >= 3) {
+            countPlayerLeft.text = "Win!";
+            countPlayerRight.text = "Lose...";
+        }
+        else if(playerRight >= 3) {
+            countPlayerRight.text = "Win!";
+            countPlayerLeft.text = "Lose...";
+        }
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("start-up");        
     }
 	
 	// Update is called once per frame
@@ -85,13 +108,26 @@ public class ballStartBehaviour : MonoBehaviour {
             //Application.Quit();
             // Debug.Log("left player wins");
         }
+        if(playerLeft < 3 && playerRight < 3) {
+            return;
+        }
+        myRigidbody.velocity = new Vector3(0f, 0.0f, 0.0f);
+        StartCoroutine(endGame());
     }
 
     void setplayerLeftScore(){
+        if(playerLeft == 0) {
+            countPlayerLeft.text = "O";
+            return;
+        }
         countPlayerLeft.text = playerLeft.ToString();
     }
 
     void setplayerRightScore(){
+        if(playerRight == 0) {
+            countPlayerRight.text = "O";
+            return;
+        }
         countPlayerRight.text = playerRight.ToString();
     }
 
