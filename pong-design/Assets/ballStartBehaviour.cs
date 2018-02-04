@@ -30,7 +30,15 @@ public class ballStartBehaviour : MonoBehaviour {
 
         setplayerLeftScore();
         setplayerRightScore();
-        yield return new WaitForSeconds(3);
+        countPlayerLeft.text = "3!";
+        countPlayerRight.text = "3!";
+        yield return new WaitForSeconds(1);
+        countPlayerLeft.text = "2!";
+        countPlayerRight.text = "2!";
+        yield return new WaitForSeconds(1);
+        countPlayerLeft.text = "1!";
+        countPlayerRight.text = "1!";
+        yield return new WaitForSeconds(1);
         finishSetup();        
     }
 
