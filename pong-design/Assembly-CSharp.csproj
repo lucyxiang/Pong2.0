@@ -51,8 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\aiControl.cs" />
      <Compile Include="Assets\ballStartBehaviour.cs" />
      <Compile Include="Assets\ButtonManager.cs" />
+     <Compile Include="Assets\keyboardControl.cs" />
+     <Compile Include="Assets\keyboardControl_right.cs" />
+     <Compile Include="Assets\leapControl.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\AerodynamicLeaf.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ChangeMaterialOnGrab.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\CubeWave.cs" />
@@ -136,6 +140,7 @@
      <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\SliderToTextDataBinder.cs" />
      <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\ToggleToTextDataBinder.cs" />
      <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\WidgetsEnabler.cs" />
+     <Compile Include="Assets\mouseControl.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OvrCapi.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
