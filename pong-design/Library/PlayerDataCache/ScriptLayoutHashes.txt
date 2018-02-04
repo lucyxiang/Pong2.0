@@ -10,6 +10,7 @@ Assets/pong-multiplayer-kk.unity
 Assets/pong-multiplayer-km.unity
 Assets/pong-multiplayer-lk.unity
 Assets/pong-multiplayer-lm.unity
+Assets/multiplayer-options.unity
 SceneListEnd?
 ef48e811a68a46cefbf784d3bf8d4dc6 Assembly-CSharp.dll:.RecordingControls
 e01602510addec094bde200983103eea Assembly-CSharp.dll:.FlowerGrower

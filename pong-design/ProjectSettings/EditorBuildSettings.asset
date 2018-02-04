@@ -35,3 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/pong-multiplayer-lm.unity
     guid: 4e0809ad800cf4b03970ee1cf3e682a9
+  - enabled: 1
+    path: Assets/multiplayer-options.unity
+    guid: 6e048adc09d2e4868ac7a2b3e345191c
