@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 86b3158cbc9294bc3b02cd5422ba7abd
-timeCreated: 1517721575
+timeCreated: 1517729428
 licenseType: Free
 TrueTypeFontImporter:
   externalObjects: {}
@@ -13,7 +13,8 @@ TrueTypeFontImporter:
   fontName: 8BIT WONDER
   fontNames:
   - 8BIT WONDER
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 59a5d6940ed38404bae3e22344f14e68, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

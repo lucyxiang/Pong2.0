@@ -69,21 +69,21 @@ public class ballStartBehaviour : MonoBehaviour {
         {
             TowardsPlayer = 1;
             myRigidbody.velocity = new Vector3(10.0f * Invert, 0.0f, 15.0f);
-            Debug.Log("touched right racket");
+            // Debug.Log("touched right racket");
         }
         else if (collision.collider.tag == "WallLeft")
         {
             playerRight = playerRight + 0.5;
             setplayerRightScore();
             //Application.Quit();
-            Debug.Log("right player wins");
+            // Debug.Log("right player wins");
         }
         else if (collision.collider.tag == "WallRight")
         {
             playerLeft = playerLeft + 0.5;
             setplayerLeftScore();
             //Application.Quit();
-            Debug.Log("left player wins");
+            // Debug.Log("left player wins");
         }
     }
 
