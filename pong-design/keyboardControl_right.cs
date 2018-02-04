@@ -1,11 +1,11 @@
-﻿// control the paddle using "W" for up and "S" for down (on the keyboard)
+// control the paddle using "W" for up and "S" for down (on the keyboard)
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
-public class racketLeftPlayer : MonoBehaviour {
+public class keyboardControl_right : MonoBehaviour {
 
 	 
     // Update is called once per frame
