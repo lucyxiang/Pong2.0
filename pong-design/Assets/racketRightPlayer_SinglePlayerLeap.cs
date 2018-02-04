@@ -1,28 +1,49 @@
-﻿﻿using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Leap;
 
 public class racketRightPlayer_SinglePlayerLeap : MonoBehaviour {
 
-    public GameObject sphere;
+	Controller controller;
 
-    // Use this for initialization
-    void Start () {
-		sphere = GameObject.Find("Ball"); 
-    }
-	
+
+	// Use this for initialization
+	void Start () {
+
+	}
+
 	// Update is called once per frame
-	void Update () {
-        if (sphere.transform.position.x > transform.position.x)
-        {
+	void Update ()
+	{
+		controller = new Controller ();
 
-            transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
-            //Debug.Log("bigger than x");
-        }
-        if (sphere.transform.position.x < transform.position.x)
-        {
-            //Debug.Log("smaller than x");
-            transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
-        }
-    }
+		Frame current = controller.Frame ();
+		Frame previous = controller.Frame (1);
+		int i = 0;
+
+		HandList hands = current.Hands;
+		Hand firstHand = current.Hands.Rightmost;
+		Vector handCenter = firstHand.PalmPosition;
+
+		transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+
+		Vector linearMovement = current.Translation (previous);
+
+
+		float TheLeapY = (float)(handCenter.y-100);
+		float TheVecY = (float)((TheLeapY/19.3333333333)-7.5);
+
+
+
+		if ((handCenter.x>0)&&(TheVecY<7.5)&&(TheVecY>-7.5)){
+
+
+				Debug.Log ("The Y value is:" + linearMovement.y);
+			transform.position = new Vector3 (TheVecY, 0.0f, transform.position.z);
+				Debug.Log ("The Hand Position is:" + handCenter);
+
+
+		}
+	}
 }
