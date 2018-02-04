@@ -29,3 +29,6 @@ Start menu with options:
 
 - Add Options menu
 - Two Leap Motion Sensors
+
+## To Play the Game
+Open in Unity the folder pong-design, build the game.

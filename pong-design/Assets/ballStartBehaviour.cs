@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class ballStartBehaviour : MonoBehaviour {
 
-    //Integeres for Ball Control
+    // Integers for Ball Control
     int Invert;
     public int TowardsPlayer = 1;
     private Rigidbody myRigidbody;
-    public float speed = 30;
 
     private double playerLeft;
     private double playerRight;
@@ -23,16 +21,17 @@ public class ballStartBehaviour : MonoBehaviour {
     void Start () {
         StartCoroutine(startSetup());
     }
+
     IEnumerator startSetup()
     {
-        playerLeft=0;
-        playerRight=0;
+        playerLeft = 0;
+        playerRight = 0;
 
         setplayerLeftScore();
         setplayerRightScore();
         countPlayerLeft.text = "3!";
         countPlayerRight.text = "3!";
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         countPlayerLeft.text = "2!";
         countPlayerRight.text = "2!";
         yield return new WaitForSeconds(1);
@@ -67,26 +66,6 @@ public class ballStartBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        /*
-        if (transform.position.z < -5.5f)
-        {
-
-
-            //GameObject.Find("Main Camera").GetComponent<Score>().IncreaseScore(1);
-            Start();
-            transform.position = Vector3.zero;
-
-        }
-        if (transform.position.z > 5.5f)
-        {
-
-            //GameObject.Find("Main Camera").GetComponent<Score>().IncreaseScore(2);
-
-            Start();
-            transform.position = Vector3.zero;
-
-        }
-        */
     }
 
     void OnCollisionEnter(Collision collision)
@@ -95,28 +74,24 @@ public class ballStartBehaviour : MonoBehaviour {
         if (collision.collider.tag == "RacketLeft")
         {
             Invert = Invert * -1;
-            myRigidbody.velocity = new Vector3(10.0f * Invert, 0.0f, -15.0f * TowardsPlayer); 
+            myRigidbody.velocity = new Vector3(15.0f * Invert, 0.0f, -15.0f * TowardsPlayer);
 
         }
         else if (collision.collider.tag == "RacketRight")
         {
             TowardsPlayer = 1;
-            myRigidbody.velocity = new Vector3(10.0f * Invert, 0.0f, 15.0f);
-            // Debug.Log("touched right racket");
+            myRigidbody.velocity = new Vector3(15.0f * Invert, 0.0f, 15.0f);
         }
         else if (collision.collider.tag == "WallLeft")
         {
             playerRight = playerRight + 0.5;
             setplayerRightScore();
-            //Application.Quit();
-            // Debug.Log("right player wins");
+
         }
         else if (collision.collider.tag == "WallRight")
         {
             playerLeft = playerLeft + 0.5;
             setplayerLeftScore();
-            //Application.Quit();
-            // Debug.Log("left player wins");
         }
         if(playerLeft < 3 && playerRight < 3) {
             return;
@@ -140,5 +115,4 @@ public class ballStartBehaviour : MonoBehaviour {
         }
         countPlayerRight.text = playerRight.ToString();
     }
-
 }

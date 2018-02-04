@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 ﻿// control the paddle using the leap controller motion sensor
 
 using System.Collections;
 using System.Collections.Generic;
 
 
+=======
+﻿using System.Collections;
+using System.Collections.Generic;
+>>>>>>> d75596839881c3e5aa636ef5e95b7195c5f6436a
 using UnityEngine;
 using Leap;
 
@@ -11,10 +16,16 @@ public class leapControl : MonoBehaviour {
 
 	Controller controller;
 
+<<<<<<< HEAD
 
 	// Use this for initialization
 	void Start () {
 
+=======
+	// Use this for initialization
+	void Start () {
+        Debug.Log ("Start");
+>>>>>>> d75596839881c3e5aa636ef5e95b7195c5f6436a
 	}
 
 	// Update is called once per frame
@@ -34,6 +45,7 @@ public class leapControl : MonoBehaviour {
 		Vector linearMovement = current.Translation (previous);
 
 
+<<<<<<< HEAD
 		float TheLeapY = (float)(handCenter.y-100);
 		float TheVecY = (float)((TheLeapY/19.3333333333)-7.5);
 
@@ -47,6 +59,16 @@ public class leapControl : MonoBehaviour {
 			Debug.Log ("The Hand Position is:" + handCenter);
 
 
+=======
+		float TheLeapY = (float) (handCenter.y - 100);
+		float TheVecY = (float) (TheLeapY / 19.3333333333 - 7.5);
+
+
+		if((handCenter.x  < 0) && (TheVecY < 7.5) && (TheVecY > -7.5)) {
+			 Debug.Log ("The Y value is:" + linearMovement.y);
+			transform.position = new Vector3 (TheVecY, 0.0f, transform.position.z);
+			 Debug.Log ("The Hand Position is:" + handCenter);
+>>>>>>> d75596839881c3e5aa636ef5e95b7195c5f6436a
 		}
 	}
 }
