@@ -1,0 +1,11 @@
+*.DS_store
+
+*.pidb.meta
+*.pdb.meta
+
+*.apk
+*unitypackage
+
+/.vs/
+
+
