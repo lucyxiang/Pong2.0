@@ -23,3 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/single-player-options.unity
     guid: 5f874dadca7d44135872b58d3f95b869
+  - enabled: 1
+    path: Assets/pong-multiplayer-kk.unity
+    guid: edff57b7240ed499f8a1965ceea96e9a
+  - enabled: 1
+    path: Assets/pong-multiplayer-km.unity
+    guid: e283f6732fe59470398a59011a29ef8a
+  - enabled: 1
+    path: Assets/pong-multiplayer-lk.unity
+    guid: 11ded732e43e14b6996adc6624b8f9e1
+  - enabled: 1
+    path: Assets/pong-multiplayer-lm.unity
+    guid: 4e0809ad800cf4b03970ee1cf3e682a9

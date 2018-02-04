@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 8639
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 8640
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 8641
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,25 +203,25 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 44640000
-    m_LastClickedID: 25668
-    m_ExpandedIDs: 4483fdff8888fdffd0c0fdff3a04feffe43afeff7668feff80e6feff2c0affff1013ffffc824ffff9c3cffffa83efffffa3fffff104dffffec51ffff5856ffffba5effff969bffff1c9dffff14f1ffff98fbffff00000000de330000da360000e2410000fa4200003a4700009e4700008a4c0000aa4c0000be4c0000c84c0000ee4c0000c6540000fa5400006a5600009e5a0000dc5f0000
+    m_SelectedIDs: b06c0000
+    m_LastClickedID: 27824
+    m_ExpandedIDs: 548ffcff32a0fcffd2d4fcffa8f8fcff4483fdff8888fdffd0c0fdff3a04feffe43afeff7668feff80e6feff2c0affff1013ffffc824ffff9c3cffffa83efffffa3fffff104dffffec51ffff5856ffffba5effff969bffff1c9dffff14f1ffff98fbffff00000000de330000da360000e2410000fa4200003a4700009e4700008a4c0000aa4c0000be4c0000c84c0000ee4c0000c6540000fa5400006a5600009e5a0000dc5f0000726c0000926c0000a66c0000b06c0000d66c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Canvas
-      m_OriginalName: Canvas
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 24540
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.09254811, y: 0.115334444, z: -0.010792834, w: -0.98894715}
     speed: 2
-    m_Value: {x: -0.09254811, y: 0.115334444, z: -0.010792834, w: -0.98894715}
+    m_Value: {x: -0.09254811, y: 0.115334444, z: -0.010792835, w: -0.98894715}
   m_Size:
     m_Target: 1975.7893
     speed: 2
@@ -425,10 +425,10 @@ MonoBehaviour:
     m_Folders:
     - Assets
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 96
   m_LastFolders:
   - Assets
-  m_LastFoldersGridSize: -1
+  m_LastFoldersGridSize: 96
   m_LastProjectPath: /Users/federiconaranjobellina/Library/Mobile Documents/com~apple~CloudDocs/GitHub/Pong2.0/pong-design
   m_IsLocked: 0
   m_FolderTreeState:
@@ -463,7 +463,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000080280000
+    m_ExpandedIDs: 000000008028000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44640000
-    m_LastClickedInstanceID: 25668
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: b06c0000
+    m_LastClickedInstanceID: 27824
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -515,8 +515,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_ScrollPosition: {x: 0, y: 220.99945}
+    m_GridSize: 96
   m_DirectoriesAreaWidth: 115
 --- !u!114 &12
 MonoBehaviour:
@@ -563,8 +563,8 @@ MonoBehaviour:
     y: 0
     width: 292
     height: 806
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -597,7 +597,7 @@ MonoBehaviour:
     width: 290
     height: 785
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 107.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
