@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Leap;
 
-public class racketLeftPlayer : MonoBehaviour {
+public class leapControl : MonoBehaviour {
 
 	Controller controller;
 	Queue queue;
