@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/start-up.unity
+    guid: f91b4c4fc88334302bf7b4ce9b6f1283
+  - enabled: 1
+    path: Assets/basic-pong.unity
+    guid: 0faba127d53de4708af38cfe1e923cbd
