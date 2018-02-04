@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ballStartBehaviour : MonoBehaviour {
 
@@ -11,12 +12,24 @@ public class ballStartBehaviour : MonoBehaviour {
     private Rigidbody myRigidbody;
     public float speed = 30;
 
+    private double playerLeft;
+    private double playerRight;
+    
+    public Text countPlayerLeft;
+    public Text countPlayerRight;
+
     // Use this for initialization
     void Start () {
         Invert = 1;
         TowardsPlayer = 1;
         this.myRigidbody = this.GetComponent<Rigidbody>();
         myRigidbody.velocity = new Vector3(10.0f, 0.0f, 15.0f);
+
+        playerLeft=0;
+        playerRight=0;
+
+        setplayerLeftScore();
+        setplayerRightScore();
     }
 	
 	// Update is called once per frame
@@ -60,13 +73,26 @@ public class ballStartBehaviour : MonoBehaviour {
         }
         else if (collision.collider.tag == "WallLeft")
         {
-            Application.Quit();
+            playerRight = playerRight + 0.5;
+            setplayerRightScore();
+            //Application.Quit();
             Debug.Log("right player wins");
         }
         else if (collision.collider.tag == "WallRight")
         {
-            Application.Quit();
+            playerLeft = playerLeft + 0.5;
+            setplayerLeftScore();
+            //Application.Quit();
             Debug.Log("left player wins");
         }
     }
+
+    void setplayerLeftScore(){
+        countPlayerLeft.text = playerLeft.ToString();
+    }
+
+    void setplayerRightScore(){
+        countPlayerRight.text = playerRight.ToString();
+    }
+
 }
