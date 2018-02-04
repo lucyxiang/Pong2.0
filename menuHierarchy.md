@@ -1,9 +1,6 @@
 0. Start Menu
- - (scene: start-up.unity)
   1. Single Player
-  - (button manager: single-player-options.unity)
     1.1 Mouse
-    -(button manager: pong-single-mouse.unity)
       - Mouse (leftRacketPlayer: mouseControl) + AI (rightRacketPlayer: aiControl)
     1.2 Keyboard
       - Keyboard (leftRacketPlayer: keyboardControl) + AI (rightRacketPlayer: aiControl)
