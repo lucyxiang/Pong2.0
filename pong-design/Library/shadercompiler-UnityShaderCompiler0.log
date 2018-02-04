@@ -1,6 +1,32 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Cmd: initializeCompiler
 <<<<<<< HEAD
+Cmd: preprocess
+  insize=447 outsize=447 ok=1
+Cmd: preprocess
+  insize=1048 outsize=944 ok=1
+Cmd: preprocess
+  insize=1014 outsize=427 ok=1
+Cmd: preprocess
+  insize=2493 outsize=1811 ok=1
+Cmd: preprocess
+  insize=4079 outsize=1183 ok=1
+Cmd: preprocess
+  insize=1347 outsize=571 ok=1
+Cmd: preprocess
+  insize=1659 outsize=1025 ok=1
+Cmd: preprocess
+  insize=995 outsize=408 ok=1
+Cmd: preprocess
+  insize=1445 outsize=1442 ok=1
+Cmd: preprocess
+  insize=898 outsize=407 ok=1
+Cmd: preprocess
+  insize=1583 outsize=719 ok=1
+Cmd: preprocess
+  insize=792 outsize=789 ok=1
+=======
+<<<<<<< HEAD
 Cmd: compileSnippet
   api=14 type=0 insize=16806 outsize=9593 kw=_SUNDISK_NONE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: compileSnippet
@@ -507,3 +533,4 @@ Cmd: compileSnippet
   api=15 type=1 insize=3987 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 =======
 >>>>>>> f1d49ee1d28a6bfacbfe02c3c5fa361d471ab62f
+>>>>>>> d2e733dc7e01088462521d8249362495a8a2ecce
