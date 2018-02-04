@@ -30,6 +30,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+a844f5e4d0b68e6cf22f4aafe293f90e Assembly-CSharp.dll:.aiControl
 bec151979386600f6dd931005679ac4c Assembly-CSharp.dll:.GrabbingHand
 834373787abc2c64ae41fe4643497bba Assembly-CSharp.dll:.SkeletalFinger
 2ba4bdf4a431d1a5c00ce72cd246f69c Assembly-CSharp.dll:.CubeWave
@@ -38,6 +39,8 @@ bec151979386600f6dd931005679ac4c Assembly-CSharp.dll:.GrabbingHand
 c49db5badcb23d4c738c511a7c8033ea Assembly-CSharp.dll:.OVRManager
 ab0324c10892e87f560eb7e5b7945328 Assembly-CSharp.dll:.RiggedHand
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonDemoGraphics
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.mouseControl
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.keyboardControl
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -70,7 +73,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-a844f5e4d0b68e6cf22f4aafe293f90e Assembly-CSharp.dll:.racketRightPlayer_SinglePlayerLeap
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.racketRightPlayer_SinglePlayerLeap
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -154,7 +157,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 ab6a36a6ae24d7b3b76f342bb3daa999 Assembly-CSharp.dll:.LeapImageRetriever
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DatePickerHideVolume
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.racketLeftPlayer_SinglePlayerLeap
-0e2e408e09e5b8ed3b4a3367abc357da Assembly-CSharp.dll:.ballStartBehaviour
+8e73f26b40b53f73573efa5342867679 Assembly-CSharp.dll:.ballStartBehaviour
 a6d16f13a373ecee9805f7b217af5aad Assembly-CSharp.dll:.GrabbableObject
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnableDepthBuffer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayStartVideo
@@ -190,6 +193,8 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d597d6d93740875acdd8c0d0dcf7e511 Assembly-CSharp.dll:.VoxelSheet
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.leapControl_right
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.leapControl
 a844f5e4d0b68e6cf22f4aafe293f90e Assembly-CSharp.dll:.racketRightPlayer_SinglePlayer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.racketLeftPlayer_SinglePlayer
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -218,6 +223,7 @@ d6c547344f02a96cbf6f48d8bbabed3e Assembly-CSharp.dll:.PolyHand
 2b961fb82a87e46a5d316fb21db4f12d Assembly-CSharp.dll:.PetalMesh
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ConfidenceTransparency
 5dba60fa9bd76db98e230bb57ac64e7e Assembly-CSharp.dll:.TriggerDrawing
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.keyboardControl_right
 65f4ee9217d95207152e46aad05a207a Assembly-CSharp.dll:.ChangeMaterialOnGrab
 d6c547344f02a96cbf6f48d8bbabed3e Assembly-CSharp.dll:.SkeletalHand
 64c758d4b69504a7d580c33ca63474b5 Assembly-CSharp.dll:.RigidFinger
@@ -229,8 +235,3 @@ c3e92368ea8af1e418d54b7758969511 Assembly-CSharp.dll:.HandDetector
 c416a1f78f46422b3af781aeb825716d Assembly-CSharp.dll:.SliderActivationManager
 c417d9aac2d621cf0ebc635559120390 Assembly-CSharp.dll:.OVRReset
 6fae563d5c2cfb274a1af8b0e5fa44a4 Assembly-CSharp.dll:.PolyFinger
-a844f5e4d0b68e6cf22f4aafe293f90e Assembly-CSharp.dll:.aiControl
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.keyboardControl_right
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.mouseControl
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.keyboardControl
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.leapControl
