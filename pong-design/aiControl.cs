@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class racketRightPlayer : MonoBehaviour {
+public class aiControl : MonoBehaviour {
 
     public GameObject sphere;
 
