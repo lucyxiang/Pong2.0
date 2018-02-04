@@ -10,7 +10,7 @@
       - Go back to 0. Start Menu
   2. Multi player
     2.1 Keyboard/Keyboard
-      - Keyboard (leftRacketPlayer: keyboardControl_left) + AI (rightRacketPlayer: keyboardControl_right)
+      - Keyboard (leftRacketPlayer: keyboardControl) + AI (rightRacketPlayer: keyboardControl_right)
     2.2 Keyboard/Mouse
       - Keyboard (leftRacketPlayer: keyboardControl) + Mouse (rightRacketPlayer: mouseControl)
     2.3 Leap/Mouse
@@ -29,7 +29,6 @@ Files for Control:
 - aiControl.cs
 - keyboardControl.cs
 - leapControl.cs
-- keyboardControl_left.cs
 - keyboardControl_right.cs
 
 For ball behaviour for the ball in all scenes: ballStartBehaviour.cs
