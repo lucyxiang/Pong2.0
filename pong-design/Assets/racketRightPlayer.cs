@@ -8,21 +8,34 @@ public class racketRightPlayer : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		sphere = GameObject.Find("Ball"); 
+		sphere = GameObject.Find("Ball");
+
+        /*
+        // easy mode
+        InvokeRepeating("SlowUpdate", 0.0f, 0.055f);
+        */
+
+        // normal mode
+        InvokeRepeating("SlowUpdate", 0.0f, 0.03f);
+
+        // hard/impossible mode: dont invode slowupdate
     }
 	
-	// Update is called once per frame
-	void Update () {
-        if (sphere.transform.position.x > transform.position.x)
+    void SlowUpdate()
+    {
+        if (sphere.transform.position.x > transform.position.x && transform.position.x < 7.5f)
         {
 
             transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
-            Debug.Log("bigger than x");
         }
-        if (sphere.transform.position.x < transform.position.x)
+        if (sphere.transform.position.x < transform.position.x && transform.position.x > -7.5f)
         {
-            Debug.Log("smaller than x");
             transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
         }
+    }
+
+	// Update is called once per frame
+	void Update () {
+        
     }
 }
