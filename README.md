@@ -38,4 +38,4 @@ Start menu with options:
 
 ## To Play the Game
 
-Download Final-Build.app [macOS only]. We tried to have a windows version as well but unity does not play well with cross platform development.
+Download `Final Demo.app` [macOS only]. We tried to have a windows version as well but unity does not play well with cross platform development.
