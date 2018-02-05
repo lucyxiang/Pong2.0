@@ -1,6 +1,6 @@
 # Pong 2.0 🔥 🏓 🖥
 
-Project made at McHacks 2018 involving reimagining the classic game of <a href="https://en.wikipedia.org/wiki/Pong">Pong</a> in three dimensions. You can play the game – in the old-fashioned way – using your mouse or keyboard, or you can step into 2018🔥 and use a <a href = "https://www.leapmotion.com">Leap Motion Controller</a> to control the game with your hands. 
+Project made at McHacks 2018 involving reimagining the classic game of <a href="https://en.wikipedia.org/wiki/Pong">Pong</a> in three dimensions. You can play the game – in the old-fashioned way – using your mouse or keyboard, or you can step into 2018🔥 and use a <a href = "https://www.leapmotion.com">Leap Motion Controller</a> to control the game with your hands.
 
 You can check out our dev-post for a video of the game in action with the Leap Motion Controllers <a href="https://devpost.com/software/pong2-0-ufwlvb#updates">here</a>.
 
@@ -10,7 +10,9 @@ We are very proud to have won the People's Choice Award this year. It was great 
 
 ![pong-logo](pong-background@256px.png)
 
-We Unity to create the game physics and design, and using Leap Motion's SDK which integrates directly with Unity. The game has various input modes including mouse, keyboard, and the Leap Motion controller, and various combinations of these in signle player or multiplayer mode. The most interactive game mode is playing multiplayer with the single Leap Motion controller; it is able to independently track each hand and move each players paddle.
+We used Unity to create the game physics and design, and using Leap Motion's SDK which integrates directly with Unity. The game has various input modes including mouse, keyboard, and the Leap Motion controller, and various combinations of these in signle player or multiplayer mode. The most interactive game mode is playing multiplayer with the single Leap Motion controller; it is able to independently track each hand and move each players paddle.
+
+None of us had any prior experience with Unity and one of had used the Leap controller once; it was challenging to learn how to use these new tools but in the end we managed to demo a complete product. Next we would like to add more music and sound effects in the game, add options for the computer difficulty, and ultimately use two Leap Motion controllers in a multiplayer game.
 
 ## Design Requirements
 
